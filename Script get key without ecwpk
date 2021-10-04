@@ -1,0 +1,15 @@
+poke fe24c070 15000001
+poke fe24c01c 2
+poke fe24de1c 1000000
+M1 = peek fe24b470
+M2 = peek fe24b474
+M3 = peek fe24b478
+M4 = peek fe24b47c
+poke fe24c020 M1
+poke fe24c024 M2
+poke fe24c028 M3
+poke fe24c02c M4
+poke fe24c070 ffff0000
+poke fe24c01c 2
+poke fe24de1c 1000000
+Display fe24c020
