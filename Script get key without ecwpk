@@ -1,4 +1,4 @@
-poke fe24c070 00f00000
+poke fe24c070 00ff0000
 poke fe24c01c 2
 poke fe24de1c 1000000
 poke fe24c070 15000001
