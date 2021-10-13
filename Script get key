@@ -1,3 +1,5 @@
+script one
+
 poke fe24c070 00ff0000
 poke fe24c01c 2
 poke fe24de1c 1000000
@@ -14,5 +16,50 @@ poke fe24c028 cdk3
 poke fe24c02c cdk4
 poke fe24c070 ffff0000
 poke fe24c01c 2
+poke fe24de1c 1000000
+Display fe24c020
+
+#######################
+
+script two
+
+poke fe24c068 00ff0000
+poke fe24c01c 0
+poke fe24de1c 1000000
+poke fe24c068 15000001
+poke fe24c01c 0
+poke fe24de1c 1000000
+cdk1 = peek fe24b470
+cdk2 = peek fe24b474
+cdk3 = peek fe24b478
+cdk4 = peek fe24b47c
+poke fe24c020 cdk1
+poke fe24c024 cdk2
+poke fe24c028 cdk3
+poke fe24c02c cdk4
+poke fe24c068 ffff0000
+poke fe24c01c 0
+poke fe24de1c 1000000
+Display fe24c020
+#######################
+
+script three
+
+poke fe24c06c 00ff0000
+poke fe24c01c 1
+poke fe24de1c 1000000
+poke fe24c06c 15000001
+poke fe24c01c 1
+poke fe24de1c 1000000
+cdk1 = peek fe24b470
+cdk2 = peek fe24b474
+cdk3 = peek fe24b478
+cdk4 = peek fe24b47c
+poke fe24c020 cdk1
+poke fe24c024 cdk2
+poke fe24c028 cdk3
+poke fe24c02c cdk4
+poke fe24c06c ffff0000
+poke fe24c01c 1
 poke fe24de1c 1000000
 Display fe24c020
