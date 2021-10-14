@@ -20,4 +20,4 @@ peek fe00d05c
 
 If this return 0x00000000(yeah), case not ,sorry this not for you.
 
-Final key is on address fe24c020. 
+Enter(Ecwpk) and output(cwpk) is address fe24c020. 
