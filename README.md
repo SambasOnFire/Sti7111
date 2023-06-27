@@ -25,3 +25,4 @@ Input(Ecwpk) and output(cwpk) is address fe24c020.
 #############################################################################
 
 add new script(metal_fix)
+I test on my box(Pace), key out OK
